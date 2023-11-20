@@ -1,0 +1,282 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/bg.avif);
+  background-size: cover;
+  
+}
+
+.header {
+  margin-top: 2px;
+  background-color: yellow;
+  height: 30px;
+
+}
+
+.header p {
+  display: inline;
+}
+
+.call{
+  width: 30px;
+}
+
+.location {
+  display: inline;
+  justify-content: right;
+  margin-left: 40px;
+  width: 12px;
+}
+nav {
+  background-color: #333;
+  height: 50px;
+}
+
+nav ul {
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  margin-top: 14px;
+  margin-left: 20px;
+}
+
+
+
+
+nav a:hover {
+  color: yellow;
+}
+
+.orderonline {
+
+  font-family: "Tilt Warp";
+margin-left: 100px;
+margin-top: 50px;
+justify-content: right;
+font-size: 40px;
+}
+.get{
+  margin-top: -57px;
+}
+main h1 {
+
+  color: green;
+  margin-top: -50px;
+  font-size: 65px;
+}
+
+main p{
+
+  font-size: 20px;
+  margin-top: -43px;
+  font-style: italic;
+}
+
+.ordernowww{
+  margin-top: -47px;
+  margin-left: 400px;
+  background-color: red;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+width: 218px;
+border-radius: 5px;
+}
+main a{
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  
+}
+main a:hover{
+  background-color: black;
+  border-radius: 5px;
+
+}
+
+.menu{
+
+  margin-top: 120px;
+  margin-left: 10px;
+  font-family: "Tilt Warp" ;
+  color: #333;
+  font-size: 50px;
+}
+
+.ppp{
+  font-size: 15px;
+  margin-left: 6px;
+  margin-top: -51px;
+}
+
+#menuu{
+  display: flex;
+
+}
+
+
+#menuu a{
+  text-decoration: none;
+  padding: 5px;
+  background-color: red ;
+  border-radius: 5px;
+  color: white;
+text-align: center;
+display: block;
+}
+#menuu a:hover{
+  background-color: black;
+  border-radius: 5px;
+
+}
+#menuu p{
+  text-align: center;
+}
+
+.pizzaa{
+
+color: green;
+font-weight: 700;
+margin: 64px;
+display: block;
+}
+
+.black{
+
+  color: black;
+  font-size: 20px;
+}
+.sizencrust{
+  display:flex;
+  margin: 10px;
+  padding: 10px;
+}
+.flexxx{
+  width: 200px;
+}
+.crispy{
+  width: 372px;
+}
+.crust{
+  margin-left: 10px;
+}
+
+
+
+.cheese{
+
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+
+
+.meat{
+  display: flex;
+  margin-top: 10px;
+}
+.meat input{
+margin-left: 10px;
+}
+
+
+
+.ingg{
+
+  margin-top: 38px;
+}
+.ing{
+  display: flex;
+  margin-top: -9px;
+  margin-left: 10px;
+}
+
+
+
+
+
+/* modifying footer  */
+
+.fff{
+
+  margin-top: 50px;
+}
+
+
+
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form select,
+form input[type="checkbox"],
+form input[type="submit"] {
+  margin-top: 10px;
+}
+
+form input[type="submit"] {
+  background-color: rgb(194, 149, 0);
+  color: black;
+  border-color: #333;
+  border: none;
+  padding: 10px;
+  font-family: "Montserrat";
+  cursor: pointer;
+  border-radius: 9px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button{
+ margin:10px 0 0 10px;
+width: 70px;
+border-radius: 5px;
+height: 35px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+.button:hover{
+  margin:10px 0 0 10px;
+  width: 70px;
+  border-radius: 5px;
+  height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    cursor: pointer;
+  }
+
+.border{
+  padding: 20px;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+  max-width: 680px;
+}
+  .ml{
+    margin-left: 10px;
+
+  }

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- meta and title -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hello, welcome to ap pizzaa">
+  <meta name="robots" content="noindex, nofollow">
+  <title>AP Pizzza- Order Your Pizza Now</title>
+
+
+  <!-- Add google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mynerve&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&family=Tilt+Warp&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./CSS/style.css">
+  <script src="./JS/script.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <img class="call" src="./img/call.png" alt="call image">
+      <p>+1 (000)-000-0000</p>
+      <div class="location">
+        <img class="location" src="./img/location.png" alt="location">
+        <p>1, Georgian Drive,Barrie, ON</p>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">MENU</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+
+
+    </nav>
+  </header>
+
+
+  <!-- student info  -->
+  <p id="studentInfo"></p>
+
+  <main>
+    <div class="orderonline">
+      <h2>Order Online</h2>
+      <h2 class="get">& Get</h2>
+      <h1>40% OFF</h1>
+
+  </main>
+
+
+  <div class="border">
+
+    <b>
+      <p> Order Here:-</p>
+    </b>
+
+    <form>
+      <div class="sizencrust">
+        <label class="crust" for="size">Size:</label>
+        <select class="crust" id="size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+
+        <label class="crust" for="crust">Crust:</label>
+        <select class="crust" id="crust" name="crust">
+          <option value="thin">Thin</option>
+          <option value="thick">Thick</option>
+          <option value="stuffed">Stuffed</option>
+        </select>
+      </div>
+
+      <div class="meat ml">
+        <p class="cheese ml">Specify a Meat:-</p>
+
+        <input type="text" name="meat" required placeholder="Enter a Meat that you like">
+      </div>
+
+      <p class="ingg ml">Please select a Ingredient below that you want to get added on your pizza:- </p>
+      <div class="ing ml">
+
+        <input type="checkbox" id="mozzarella" name="toppings" value="Mozzarella">
+        <label for="mozzarella">Mozzarella</label>
+        <input type="checkbox" id="cheddar" name="toppings" value="Cheddar">
+        <label for="cheddar">Cheddar</label>
+
+
+        <input type="checkbox" id="onions" name="toppings" value="Onions">
+        <label for="onions">Onions</label>
+        <input type="checkbox" id="bellPeppers" name="toppings" value="Bell Peppers">
+        <label for="bellPeppers">Bell Peppers</label>
+        <input type="checkbox" id="olives" name="toppings" value="Olives">
+        <label for="olives">Olives</label>
+      </div>
+      <p class="fff ml">Please Fill the form:-</p>
+      <div class="details ml">
+        <p class="details">Enter Your First Name: </p>
+        <input type="text" name="fname" required placeholder="Your First Name">
+        <p class="details">Enter Your Last Name: </p>
+        <input type="text" name="lname" required placeholder="Your Last Name">
+        <p class="details">Enter Your Email: </p>
+        <p><input type="email" required placeholder="Your Email"></p>
+        <p class="details">Enter Your Password: </p>
+        <input type="password" required>
+      </div>
+      <!-- submit button  -->
+
+      <button class="button ml">Submit</button>
+    </form>
+
+  </div>
+  <!-- copyright and footer  -->
+  <footer>
+    <p>&copy; AP Pizza || All rights Reserved...</p>
+  </footer>
+</body>
+
+</html>
